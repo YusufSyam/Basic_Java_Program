@@ -37,7 +37,7 @@ public class DecryptMorseCode {
 					break;
 				case "....":
 					System.out.print("H");
-					break;
+					break; 
 				case "..":
 					System.out.print("I");
 					break;
