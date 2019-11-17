@@ -37,7 +37,7 @@ public class SelfDividingNumber {
 		HashMap <Integer, Integer> digit= new HashMap<>();	
 		
 			for(int i=10; i<1000000000; i*=10) {
-				if(angka-i>=0){
+				if(angka-i>=0){ 
 					digit.put(indeks, (angka%i)-pengurang);
 					pengurang+= digit.get(indeks);
 
