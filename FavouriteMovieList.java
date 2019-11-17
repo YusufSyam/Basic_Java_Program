@@ -97,16 +97,17 @@ public class FavouriteMovieList {
 		String cast= xx.nextLine();
 		
 		return  "Judul\t : "+judul+
-				"\nRilis\t : "+rilis+
-				"\nDurasi\t : "+durasi+
-				"\nGenre\t : "+genre+
-				"\nSinopsis : "+sinopsis+
-				"\nCast\t : "+cast;
+			"\nRilis\t : "+rilis+
+			"\nDurasi\t : "+durasi+
+			"\nGenre\t : "+genre+
+			"\nSinopsis : "+sinopsis+
+			"\nCast\t : "+cast;
 		}
 	
 	public static void bacaData() throws IOException{
 		FileReader sumberFile= null;
 		BufferedReader pembacaFile= null;
+
 			sumberFile= new FileReader("MovieData.txt");
 			pembacaFile= new BufferedReader(sumberFile);
 				
@@ -137,6 +138,7 @@ public class FavouriteMovieList {
 		PrintWriter penulisIsiFile= null;
 		
 			penulisIsiFile= new PrintWriter("MovieData.txt");	
+		
 			for(int i= 0; i<movieDetails.size(); i++){
 				String ganti= movieDetails.get(i).replaceAll("\n", "###");
 				penulisIsiFile.write(ganti+"\n");
