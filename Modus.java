@@ -3,7 +3,7 @@ import java.util.*;
 public class Modus {
 	
 	// Mencari modus dari sebuah data tunggal
-	
+	 
 	static Scanner xx= new Scanner(System.in);
 	public static void main(String [] args) {
 		ArrayList <Integer> bilanganSama= new ArrayList<>();
