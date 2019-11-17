@@ -5,7 +5,7 @@ public class HighestValueOfPyramidNumber {
 	/**
 	* Mencari jumlah angka tertinggi
 	* Dari titik terendah sampai titik tertinggi
-	* Suatu segitiga angka
+	* Suatu piramida angka
 	*/
 	
 	public static void main(String [] args) {
