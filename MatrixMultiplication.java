@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class MatrixMultiplication {
 	public static void main(String [] args) {	
 		Scanner xx= new Scanner(System.in);
-		
+		 
 		System.out.println("Matriks 1");
 		System.out.print("Baris : ");
 		int barisM1= xx.nextInt();
