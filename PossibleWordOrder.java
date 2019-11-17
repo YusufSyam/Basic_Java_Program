@@ -60,6 +60,6 @@ public class PossibleWordOrder {
 		for(int i=1 ; i<=x; i++) {
 			a*=i;
 		}
-		return a;
+		return a; 
 	}
 	}
