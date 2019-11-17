@@ -7,7 +7,7 @@ public class HighestValueOfPyramidNumber {
 	* Dari titik terendah sampai titik tertinggi
 	* Suatu piramida angka
 	*/
-	
+	 
 	public static void main(String [] args) {
 		Scanner xx= new Scanner(System.in);
 		int batas= xx.nextInt();
