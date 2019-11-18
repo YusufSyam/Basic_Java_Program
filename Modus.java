@@ -42,11 +42,12 @@ public class Modus {
 				}
 				}
 		
-		int maks= 0, maksIndeks= 0;
+		int maks= 0, maksIndeks= 0, maksModus= 0;
 		
 		for(int i=0; i<modus.length; i++) {
-			if(modus[i]>maks) {
+			if(modus[i]>=maks && bilanganSama.get(i)>=maksModus) {
 				maksIndeks= i; 
+				maksModus= bilanganSama.get(i);
 				maks= modus[i];
 			}
 			}	
